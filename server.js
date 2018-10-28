@@ -8,7 +8,7 @@ var methodOverride = require('method-override');
 var cors = require('cors');
  
 
-mongoose.connect('mongodb://localhost/POS');
+mongoose.connect('mongodb://AldairRomo:aldamlab98@ds121343.mlab.com:21343/request');
  
 app.use(morgan('dev'));                                        
 app.use(bodyParser.urlencoded({'extended':'true'}));           
